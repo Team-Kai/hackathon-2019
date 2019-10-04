@@ -5,10 +5,14 @@ import './App.scss';
 import Home from './components/Home';
 import SearchResults from './components/SearchResults';
 import Listing from './components/Listing';
-import Navigation from './components/Navigation';
+import Navigation from './components/partials/Navigation';
+
+import nmexico from './outfile-a_few.js';
 
 export default class App extends Component {
+
   render() {
+    console.log(nmexico)
     return (
       <div className="App">
           <Navigation />
