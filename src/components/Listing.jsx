@@ -47,7 +47,7 @@ export default class Listing extends Component {
                 {console.log(this.state.listing)}
                 <div className="row">
                     <div className="col-md-8">
-                        MAP
+                        <MAP />
                     </div>
                     <div className="col-md-4">
                         {/* <img src={this.state.listing.images.picture_url} alt=""/> */}
