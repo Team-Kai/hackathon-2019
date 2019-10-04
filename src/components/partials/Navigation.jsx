@@ -17,7 +17,7 @@ export default class Navigation extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <input className="form-control my-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <Link to="/listings" className="btn btn-outline-success my-2 my-sm-0">Search</Link>
 
                         <form className="form-inline my-2 my-lg-0">
                             <ul className="navbar-nav mr-auto">
