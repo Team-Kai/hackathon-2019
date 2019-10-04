@@ -6,12 +6,14 @@ import Home from './components/Home';
 import SearchResults from './components/SearchResults';
 import Listing from './components/Listing';
 import Navigation from './components/Navigation';
+import Navbar2 from './components/Navbar2';
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
           <Navigation />
+          <Navbar2/>
         <div className="container">
           <Switch>
             <Route exact path='/' component={Home} />
