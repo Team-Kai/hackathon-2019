@@ -7,12 +7,13 @@ import SearchResults from './components/SearchResults';
 import Listing from './components/Listing';
 import Navigation from './components/partials/Navigation';
 
-// import nmexico from './outfile-a_few.js';
+import ModalForm from './components/partials/ModalForm';
+
 
 export default class App extends Component {
 
   render() {
-    // console.log(nmexico)
+
     return (
       <div className="App">
         

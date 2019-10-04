@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ModalForm from './partials/ModalForm';
 
 export default class Home extends Component {
 
@@ -9,9 +10,9 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div>
-                This is the Home Component
-            </div>
+            <React.Fragment>
+                <ModalForm page={homePage} />
+            </React.Fragment>
         )
     }
 }
