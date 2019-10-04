@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import SmallListing from './partials/SmallListing'
+import Map from './partials/Map';
 
 export default class Listings extends Component {
 
@@ -30,7 +31,7 @@ export default class Listings extends Component {
         })}
         </div>
         <div className="col-md-4">
-          THIS IS A MAP!
+          <Map />
         </div>
         {console.log(this.state.listings)}
         </div>
