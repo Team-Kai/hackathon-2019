@@ -8,21 +8,25 @@ export default class ModalForm extends Component {
 
   render() {
     return (
-      <div className="popup">
+      <div className="popup modal-home">
         <h1>Book unique places to stay and things to do.</h1>
         <form>
           <div className="form-group">
-            <label for="exampleInputEmail1">Where</label>
+            <label for="exampleInputEmail1" className="small" style={{"text-transform":"uppercase"}}>Where</label>
             <input type="text" placeholder="Anywhere" />
           </div>
+          <div className="flex">
           <div className="form-group">
-            <label for="checkin">Check-in</label>
+            <label for="checkin" className="small" style={{"text-transform":"uppercase"}}>Check-in</label>
             <input className="checkin" name="checkin" />
-            <label for="checkin">Check-Out</label>
+          </div>
+          <div className="form-group">
+          <label for="checkin" className="small" style={{"text-transform":"uppercase"}}>Check-Out</label>
             <input className="checkout" name="checkout" />
           </div>
+          </div>
           <div className="form-group form-check">
-            <label for="guests">Guests</label>
+            <label for="guests" className="small" style={{"text-transform":"uppercase"}}>Guests</label>
             <select class="guests" name="guests">
               <option>We don't do this</option>
             </select>
