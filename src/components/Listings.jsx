@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import SmallListing from './partials/SmallListing'
 
 export default class Listings extends Component {
 
@@ -19,13 +20,23 @@ export default class Listings extends Component {
 
   render() {
     return (
-      <div>
-        {console.log(this.state.listings)}
+      <div className="container">
+        <div className="row">
 
-
+        <div className="col-md-8">
+          <h1>100+ Places to stay</h1>
         {this.state.listings.map((listing, i) => {
-          return <h1>{listing.name}</h1>
+          return <SmallListing listing={listing} key={i}/>
         })}
+        </div>
+        <div className="col-md-4">
+          THIS IS A MAP!
+        </div>
+        {console.log(this.state.listings)}
+        </div>
+
+
+
       </div>
     )
   }
