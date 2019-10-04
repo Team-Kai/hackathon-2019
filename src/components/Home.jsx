@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Carousel from './partials/Carousel';
 
 export default class Home extends Component {
 
@@ -11,8 +10,7 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                This is the Home Component
-                <Carousel />
+                
             </div>
         )
     }

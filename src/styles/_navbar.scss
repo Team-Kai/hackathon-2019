@@ -1,0 +1,54 @@
+
+html *{
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar{
+    background: #fff;
+    color: #555;
+    padding: 10px 0 !important;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,0.12), 0 7px 10px -5px rgba(0,0,0,0.15) !important;
+}
+.navbar.bg-rose{
+color: #fff;
+background-color: #e91e63 !important;
+box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14), 0 7px 12px -5px rgba(233,30,99,0.46);
+}
+
+.navbar.bg-dark{
+color: #fff;
+   background: #212121!important;
+   box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14), 0 7px 12px -5px rgba(33,33,33,0.46);
+}
+
+.navbar.bg-info{
+    color: #fff;
+    background: #00bcd4!important;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14), 0 7px 12px -5px rgba(0,188,212,0.46);
+}
+
+.navbar.bg-primary{
+    color: #fff;
+    background: #9c27b0!important;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14), 0 7px 12px -5px rgba(156,39,176,0.46);
+}
+
+.navbar.navbar-transparent{
+    color: #fff;
+    background: transparent;
+    box-shadow: none !important;
+}
+
+.navbar.navbar-transparent .navbar-brand{
+    color: red;
+}
+
+#searchbar {
+    width: 60%;
+}
+
+
+
+
+
