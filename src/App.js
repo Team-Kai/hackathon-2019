@@ -12,7 +12,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <video autoplay muted loop id="myVideo">
+        <video autoPlay muted loop id="myVideo">
           <source
             src="./assets/new-mexico--airbnb.mp4"
             type="video/mp4"
