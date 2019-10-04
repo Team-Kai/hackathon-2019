@@ -7,15 +7,23 @@ import SearchResults from './components/SearchResults';
 import Listing from './components/Listing';
 import Navigation from './components/partials/Navigation';
 
-import nmexico from './outfile-a_few.js';
+// import nmexico from './outfile-a_few.js';
 
 export default class App extends Component {
 
   render() {
-    console.log(nmexico)
+    // console.log(nmexico)
     return (
       <div className="App">
+        
+   
+ <video controls autoplay muted loop id="myVideo">
+   <source src="./assets/new-mexico--airbnb.mp4"
+   type="video/mp4"></source>
+   </video>
+
           <Navigation />
+          
         <div className="container">
           <Switch>
             <Route exact path='/' component={Home} />
@@ -23,7 +31,11 @@ export default class App extends Component {
             <Route path='/search' component={SearchResults} />
           </Switch>
         </div>
+     
       </div>
     )
   }
 }
+
+
+//html5 for video the tag is video// 
