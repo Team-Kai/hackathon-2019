@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default class SmallListing extends Component {
   render() {
     return (
-            <Link to={`/listing/${this.props.listing.id}`}>              
+            <Link to={`/listing/${this.props.listing.id}`} id={this.props.listing.id}>              
         <div class="card mb-3">
           <div class="row no-gutters">
             <div class="col-md-8">
