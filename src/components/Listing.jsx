@@ -23,6 +23,7 @@ export default class Listing extends Component {
         if(this.state.listing){
             return <div>
                 <h1>{this.state.listing.name}</h1>
+                <p class="card-text">{this.state.listing.accommodates} Guests - {this.state.listing.bedrooms} Bedrooms - {this.state.listing.bathrooms} Bathrooms</p>
                 <p>{this.state.listing.description}</p>
             </div>
         }
@@ -41,6 +42,30 @@ export default class Listing extends Component {
         }
     }  
 
+
+    showHost = () => {
+        if (this.state.listing.host) {
+            return <div>
+                <p>{this.state.listing.host.host_name}</p>
+                <img src={this.state.listing.host_thumbnail_url} alt=""/>
+            </div>
+        }
+    }
+
+    showImage = () => {
+        if (this.state.listing.images) {
+            return <img src={this.state.listing.images.picture_url} alt=""/>
+        }
+    }
+
+    showAmenitites = () => {
+        if (this.state.listing.amenities) {
+            return this.state.listing.amenities.map((feature, i) => {
+               return  <li>{feature}</li>
+            })
+        }
+    }
+
     render() {
         return (
             <div className="container white">
@@ -50,11 +75,13 @@ export default class Listing extends Component {
                         <Map />
                     </div>
                     <div className="col-md-4">
+                        {this.showImage()}
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-8">
                         {this.showInfo()}
+                        <h5>Neighborhood</h5>
                         <p>{this.state.listing.neighborhood_overview}</p>
                     </div>
                     <div className="col-md-4">
@@ -63,16 +90,15 @@ export default class Listing extends Component {
                 </div>
                 <div className="row">
                     <div className="col-md-8">
-                        HOSTING INNFO
-                        where from, date joined
-                        personal reviews
-                        response time
+                        {this.showHost()}
                         <button>contact host</button>
                     </div>
                 </div>
                 <div className="row">
-                    POLICIES
-
+                    Ammenitites
+                    <ul>
+                    {this.showAmenitites()}
+                    </ul>
                 </div>
                 <div className="row">
                     <div className="col-md-8">
