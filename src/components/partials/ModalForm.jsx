@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 
 export default class ModalForm extends Component {
+
+    state = {
+        page : this.props.page
+    }
+
   render() {
     return (
       <div className="popup">
