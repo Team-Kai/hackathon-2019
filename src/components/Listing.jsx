@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import ModalForm from './partials/ModalForm'
+import Map from './Map'
 
 export default class Listing extends Component {
     state = {
@@ -22,6 +23,7 @@ export default class Listing extends Component {
         if(this.state.listing){
             return <div>
                 <h1>{this.state.listing.name}</h1>
+                <p>{this.state.listing.description}</p>
             </div>
         }
     }
@@ -41,21 +43,18 @@ export default class Listing extends Component {
 
     render() {
         return (
-
-            
-            <div className="container">
+            <div className="container white">
                 {console.log(this.state.listing)}
                 <div className="row">
                     <div className="col-md-8">
-                        <MAP />
+                        <Map />
                     </div>
                     <div className="col-md-4">
-                        {/* <img src={this.state.listing.images.picture_url} alt=""/> */}
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-8">
-                        INFO AND SHIT
+                        {this.showInfo()}
                         <p>{this.state.listing.neighborhood_overview}</p>
                     </div>
                     <div className="col-md-4">
@@ -79,10 +78,6 @@ export default class Listing extends Component {
                     <div className="col-md-8">
                         Reviews
                         {this.showReviews()}
-                        {/* {this.state.listing.reviews.map((review, i) => {
-                            console.log(review.comments)
-                            return <p>{review.comments}</p>
-                        })} */}
                     </div>
                     <div className="col-md-4">
 
