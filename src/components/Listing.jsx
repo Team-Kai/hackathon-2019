@@ -70,7 +70,7 @@ export default class Listing extends Component {
         return (
             <div className="container white">
                 {console.log(this.state.listing)}
-                <div className="row">
+                <div className="row white">
                     <div className="col-md-8">
                         <Map />
                     </div>
@@ -78,7 +78,7 @@ export default class Listing extends Component {
                         {this.showImage()}
                     </div>
                 </div>
-                <div className="row">
+                <div className="row white">
                     <div className="col-md-8">
                         {this.showInfo()}
                         <h5>Neighborhood</h5>
@@ -88,24 +88,24 @@ export default class Listing extends Component {
                         <ModalForm />
                     </div>
                 </div>
-                <div className="row">
+                <div className="row white">
                     <div className="col-md-8">
                         {this.showHost()}
                         <button>contact host</button>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row white">
                     Ammenitites
                     <ul>
                     {this.showAmenitites()}
                     </ul>
                 </div>
-                <div className="row">
+                <div className="row white">
                     <div className="col-md-8">
                         Reviews
                         {this.showReviews()}
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 white">
 
                     </div>
                 </div>

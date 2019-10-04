@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class ModalForm extends Component {
 
@@ -31,10 +32,9 @@ export default class ModalForm extends Component {
               <option>We don't do this</option>
             </select>
           </div>
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
         </form>
+
+        <Link to="/listings" className="btn btn-primary">Submit</Link>
       </div>
     );
   }
