@@ -8,10 +8,6 @@ import Listing from './components/Listing';
 import Listings from './components/Listings'
 import Navigation from './components/partials/Navigation';
 
-import ModalForm from './components/partials/ModalForm';
-
-import ModalForm from "./components/partials/ModalForm";
-
 export default class App extends Component {
   render() {
     return (
