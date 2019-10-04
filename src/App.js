@@ -14,7 +14,6 @@ export default class App extends Component {
     return (
       <div className="App">
           <Navigation />
-          <ModalForm />
         <div className="container">
           <Switch>
             <Route exact path='/' component={Home} />
