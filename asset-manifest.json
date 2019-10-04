@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/hackathon-2019/static/css/main.50dbc33a.chunk.css",
-    "main.js": "/hackathon-2019/static/js/main.0d9ab81b.chunk.js",
-    "main.js.map": "/hackathon-2019/static/js/main.0d9ab81b.chunk.js.map",
+    "main.css": "/hackathon-2019/static/css/main.011438bc.chunk.css",
+    "main.js": "/hackathon-2019/static/js/main.df12a95f.chunk.js",
+    "main.js.map": "/hackathon-2019/static/js/main.df12a95f.chunk.js.map",
     "runtime-main.js": "/hackathon-2019/static/js/runtime-main.96642a7d.js",
     "runtime-main.js.map": "/hackathon-2019/static/js/runtime-main.96642a7d.js.map",
-    "static/js/2.3fd8a9e5.chunk.js": "/hackathon-2019/static/js/2.3fd8a9e5.chunk.js",
-    "static/js/2.3fd8a9e5.chunk.js.map": "/hackathon-2019/static/js/2.3fd8a9e5.chunk.js.map",
+    "static/js/2.4c846d92.chunk.js": "/hackathon-2019/static/js/2.4c846d92.chunk.js",
+    "static/js/2.4c846d92.chunk.js.map": "/hackathon-2019/static/js/2.4c846d92.chunk.js.map",
     "index.html": "/hackathon-2019/index.html",
-    "precache-manifest.fd78e83ddae4fa08ee5b7968826e60e4.js": "/hackathon-2019/precache-manifest.fd78e83ddae4fa08ee5b7968826e60e4.js",
+    "precache-manifest.4059baa6cae1f1f771a600835f8bf192.js": "/hackathon-2019/precache-manifest.4059baa6cae1f1f771a600835f8bf192.js",
     "service-worker.js": "/hackathon-2019/service-worker.js",
-    "static/css/main.50dbc33a.chunk.css.map": "/hackathon-2019/static/css/main.50dbc33a.chunk.css.map"
+    "static/css/main.011438bc.chunk.css.map": "/hackathon-2019/static/css/main.011438bc.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.96642a7d.js",
-    "static/js/2.3fd8a9e5.chunk.js",
-    "static/css/main.50dbc33a.chunk.css",
-    "static/js/main.0d9ab81b.chunk.js"
+    "static/js/2.4c846d92.chunk.js",
+    "static/css/main.011438bc.chunk.css",
+    "static/js/main.df12a95f.chunk.js"
   ]
 }
