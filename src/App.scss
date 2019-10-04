@@ -1,0 +1,11 @@
+@import 'styles/variables';
+@import '~bootstrap/scss/bootstrap.scss';
+@import 'styles/layout';
+@import 'styles/typography';
+
+body {
+  margin: 0;
+  font-family: $font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

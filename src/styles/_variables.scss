@@ -1,0 +1,26 @@
+$white : #fff;
+$black : #000;
+
+$airRed : #FF5A5F;
+$airTeal : #00A699;
+$airOrange : #FC642D;
+$airDarkGray : #484848;
+$airLightGray : #767676;
+
+$tiny : 8px;
+$small : 16px;
+$base : 24px;
+$large : 48px;
+$xlarge : 64px;
+
+$font : Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+
+// Overide Bootstrap Variables below, variables are imported before bootstrap is imported in App.scss
+// Bootstrap Documentation - https://getbootstrap.com/docs/4.1/getting-started/introduction/
+$body-bg: #fff;
+
+$theme-colors: (
+    "primary":    $airRed,
+    "secondary":  $airTeal,
+    "success":    $airRed
+);
