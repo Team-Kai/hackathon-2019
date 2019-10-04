@@ -11,7 +11,7 @@ export default class Home extends Component {
     render() {
         return (
             <React.Fragment>
-                <ModalForm page={homePage} />
+                <ModalForm page={"home"} />
             </React.Fragment>
         )
     }

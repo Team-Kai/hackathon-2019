@@ -1,0 +1,24 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.popup {
+    padding: $base $large $large;
+    background-color: $white;
+    border: 1px solid $airLightGray;
+    border-radius: $tiny;
+
+    label {
+        display: block;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    &.modal-home {
+        position: absolute;
+        top: 20%;
+    }
+}
